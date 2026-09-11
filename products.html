@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Shop | The Candle House</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        The Candle House
+    </div>
+
+    <nav>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="products.html" class="active">
+            Shop
+        </a>
+
+        <a href="orders.html">
+            Orders
+        </a>
+
+        <a href="cart.html">
+            Cart
+            <span class="cart-count">0</span>
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="shop-page">
+
+    <section class="shop-hero">
+
+        <p class="section-label">
+            THE CANDLE HOUSE
+        </p>
+
+        <h1>
+            Find Your Perfect Candle
+        </h1>
+
+        <p>
+            Discover handmade candles created
+            to make every moment feel special.
+        </p>
+
+    </section>
+
+
+    <!-- SEARCH & FILTER -->
+
+    <section class="shop-controls">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search candles..."
+        >
+
+        <select id="categoryFilter">
+
+            <option value="all">
+                All Categories
+            </option>
+
+            <option value="scented">
+                Scented
+            </option>
+
+            <option value="decorative">
+                Decorative
+            </option>
+
+            <option value="gift">
+                Gift
+            </option>
+
+            <option value="custom">
+                Custom
+            </option>
+
+            <option value="luxury">
+                Luxury
+            </option>
+
+        </select>
+
+
+        <select id="sortProducts">
+
+            <option value="default">
+                Sort By
+            </option>
+
+            <option value="low">
+                Price: Low to High
+            </option>
+
+            <option value="high">
+                Price: High to Low
+            </option>
+
+        </select>
+
+    </section>
+
+
+    <!-- PRODUCTS -->
+
+    <section class="products-section">
+
+        <div
+            class="products-grid"
+            id="productsGrid">
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 The Candle House.
+        All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
